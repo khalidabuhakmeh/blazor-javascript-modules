@@ -1,0 +1,23 @@
+﻿@page "/"
+@using Toasty.Core
+@inject IJSRuntime JsRuntime;
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<button @onclick="Hi" class="btn btn-primary">Toast!</button>
+
+@code {
+    
+    private async Task Hi()
+    {
+        dynamic module = 
+            await JsRuntime
+                .Import<Example>("exampleJsInterop.js");
+        // dynamic method invocation
+        string value = await module.showPrompt<string>("hello world");
+        Console.WriteLine(value);
+    }
+
+}

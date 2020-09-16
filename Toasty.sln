@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toasty", "Toasty\Toasty.csproj", "{A49FB93D-AC50-4455-BE9E-54BB440E68E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toasty.Core", "Toasty.Core\Toasty.Core.csproj", "{9838156A-4B6E-413F-AC95-26DE399E5C33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A49FB93D-AC50-4455-BE9E-54BB440E68E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49FB93D-AC50-4455-BE9E-54BB440E68E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49FB93D-AC50-4455-BE9E-54BB440E68E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49FB93D-AC50-4455-BE9E-54BB440E68E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9838156A-4B6E-413F-AC95-26DE399E5C33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9838156A-4B6E-413F-AC95-26DE399E5C33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9838156A-4B6E-413F-AC95-26DE399E5C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9838156A-4B6E-413F-AC95-26DE399E5C33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
